@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agu+Display&family=Boldonse&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="cart-popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translateX(-50%); background: #fff; border: 1px solid #ddd; padding: 20px; z-index: 1000; max-width: 300px;">
+        <h2>Your Cart</h2>
+        <ul id="cartlist"></ul>
+        <p><strong>Total:</strong> $<span id="total-price">0</span></p>
+        <button id="close-cart">Close</button>
+      </div>
+
+
+    <div class="container">
+    <nav>
+        <div class="logo">
+            <h2>Just<span>Gym</span></h2>
+        </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#product">Our Products</a></li>
+                <li><a href="#arrival">New Arrivals</a></li>
+                <li><a href="#partner">Our Partners</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+            <div class="cart-icon">
+                <button id="cart-btn">🛒Cart <span class="cart-count">0</span></button>
+            </div>
+            
+            <div class="updateproduct"> <button onclick="window.location.href='update.html'">update products</button></div>
+            <div class="togglebar">
+                <img id="bar" src="/images/icons8-menu.gif" alt="">
+            </div>
+        
+    </nav>
+
+    <div class="main">
+        <div class="maintext">
+            <h1><span>Your </span>Gains <br>
+            Our <span>Products</span></h1>
+            <button >Shop Now</button>
+        </div>
+    </div>
+<div id="product">
+    <div class="head">
+        
+            <h1><a href="#product" style="text-decoration: none;">Shop Now</a></h1>
+        </div>
+        <div class="products">
+
+           
+     <!-- <div class="card">
+                <img src="/images/alina-chernysheva-JA2S6sJWleg-unsplash.jpg" alt="">
+                <h2>product 1</h2>
+                <p>costs you only at <span>$999</span> -/only</p>
+                <p>your gains our products</p>
+            </div> -->
+
+            <!-- <div class="card">
+                <img src="/images/andrey-khoviakov-CywnFj7dSmo-unsplash.jpg" alt="">
+                <h2>product 2</h2>
+                <p>costs you only at <span>$996</span> -/only</p>
+                <p>your gains our products</p>
+            </div>
+
+            <div class="card">
+                <img src="/images/andrey-khoviakov-CywnFj7dSmo-unsplash.jpg" alt="">
+                <h2>product 2</h2>
+                <p>costs you only at <span>$996</span> -/only</p>
+                <p>your gains our products</p>
+            </div>
+
+            <div class="card">
+                <img src="/images/andrey-khoviakov-CywnFj7dSmo-unsplash.jpg" alt="">
+                <h2>product 2</h2>
+                <p>costs you only at <span>$996</span> -/only</p>
+                <p>your gains our products</p>
+            </div>
+
+            <div class="card">
+                <img src="/images/andrey-khoviakov-CywnFj7dSmo-unsplash.jpg" alt="">
+                <h2>product 2</h2>
+                <p>costs you only at <span>$996</span> -/only</p>
+                <p>your gains our products</p>
+            </div>
+
+            <div class="card">
+                <img src="/images/andrey-khoviakov-CywnFj7dSmo-unsplash.jpg" alt="">
+                <h2>product 2</h2>
+                <p>costs you only at <span>$996</span> -/only</p>
+                <p>your gains our products</p>
+            </div>
+
+            <div class="card">
+                <img src="/images/brett-jordan-U2q73PfHFpM-unsplash.jpg" alt="">
+                <h2>product 3</h2>
+                <p>costs you only at <span>$99</span> -/only</p>
+                <p>your gains our products</p>
+            </div>
+
+            <div class="card">
+                <img src="/images/debagni-sarkhel-0jIxHsotdac-unsplash.jpg" alt="">
+                <h2>product 4</h2>
+                <p>costs you only at <span>$9</span> -/only</p>
+                <p>your gains our products</p>
+            </div> -->
+        </div>
+</div>
+
+
+<div id="arrival">
+    <div class="head">
+        <h1>New Arrivals</h1>
+    </div>
+    <div class="arrivals">
+
+        <div class="arrivalcard">
+                <img src="/images/arrival1.jpg" alt="">
+                <h2>product 4</h2>
+                <p>new arrivals</p>
+        </div>
+
+        <div class="arrivalcard">
+            <img src="/images/arrival2.jpg" alt="">
+            <h2>product 4</h2>
+            <p>new arrivals</p>
+        </div>
+
+        <div class="arrivalcard">
+            <img src="/images/arrival3.jpg" alt="">
+            <h2>product 4</h2>
+            <p>new arrivals</p>
+        </div>
+
+    </div>
+</div>
+
+<div id="partner">
+
+    <div class="head">
+        <h1>Our Partners</h1>
+    </div>
+    <div class="partners">
+        <div class="brands">
+            <img src="/images/logo1.png" alt="">
+        </div>
+        <div class="brands">
+            <img src="/images/logo2.png" alt="">
+        </div>
+        <div class="brands">
+            <img src="/images/logo3.png" alt="">
+        </div>
+        <div class="brands">
+            <img src="/images/logo4.png" alt="">
+        </div>
+        <div class="brands">
+            <img src="/images/logo5.png" alt="">
+        </div>
+        <div class="brands">
+            <img src="/images/logo6.png" alt="">
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <div class="head">
+        <h1>About US</h1>
+    </div>
+    <div class="about">
+        <img src="/images/Untitled design_page-0001.jpg" alt="">
+        <div class="abouttext">
+            
+            <h1>Our products serves you <br>the best comfort and <br>durability </h1>
+            <p>Lorem, ipsum dolor sit amet consectetur <br>bradipisicing elit. Quos aut ea vero, voluptatem <br>sapiente nesciunt, odit exercitationem adipisci <br>alias ut corrupti dolorum esse?</p>
+        </div>
+    </div>
+</div>
+
+<div>
+    <div class="footer">
+        <div class="sections">
+            <h2>our branches</h2>
+            <p><a href="">address 1</a></p>
+            <p><a href="">address 1</a></p>
+            <p><a href="">address 1</a></p>
+            <p><a href="">address 1</a></p>
+        </div>
+
+        <div class="sections">
+            <h2>contact us</h2>
+            <p><a href="">instagram</a></p>
+            <p><a href="">facebook</a></p>
+            <p><a href="">linkedIn</a></p>
+            <p><a href="">whatsapp</a></p>
+        </div>
+
+        
+    </div>
+    <p style="text-align: center; background-color: black; color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">© JustGym 2025. All rights reserved.</p>
+</div>
+
+</div>
+<script src="new.js"></script>
+</body>
+</html>
